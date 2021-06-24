@@ -1,4 +1,10 @@
+<?php
+include 'config.php';
+
+//phpinfo();
+?>
 <!DOCTYPE html>
+
 <html lang="sk_SK">
 
 <head>
@@ -10,7 +16,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 
     <!-- custom css file link  -->
-    <link rel="stylesheet" href="/Users/martinzatko/Desktop/PortfolioWebsite/css/style.css">
+    <link rel="stylesheet" href="http://resumezatko.jednoduse.cz/css/style.css">
 
 </head>
 
@@ -21,7 +27,7 @@
     <header>
 
         <div class="user">
-            <img src="/Users/martinzatko/Desktop/PortfolioWebsite/images/ProfilePicture.jpg" alt="">
+            <img src="http://resumezatko.jednoduse.cz/images/ProfilePicture.jpg" alt="">
             <h3 class="name">Martin Zaťko</h3>
             <p class="post">Budúci Front end Developer</p>
         </div>
@@ -70,7 +76,7 @@
                 <h3> <span> Qualifikácia : </span> Mechatronik / Elektrotechnik </h3>
                 <h3> <span> Aktuálna pozícia : </span> Údržbár </h3>
                 <h3> <span> Jazyk : </span> Slovenský, Anglický <span>(A1)</span>, Nemecký <span>(A2-B1)</span> </h3>
-                <a href="#"><button class="btn"> Stiahnuť CV <i class="fas fa-download"></i> </button></a>
+                <a href=" http://resumezatko.jednoduse.cz/documents/CV.pdf" download="CV.pdf"><button class="btn"> Stiahnuť CV <i class="fas fa-download"></i> </button></a>
             </div>
 
             <div class="counter">
@@ -168,28 +174,28 @@
         <div class="box-container">
 
             <div class="box">
-                <img src="/Users/martinzatko/Desktop/PortfolioWebsite/images/projekt1.png" alt="">
+                <img src="http://resumezatko.jednoduse.cz/images/projekt1.png" alt="">
                 <a href="#"><button class="btn"> Stiahnuť CV <i class="fas fa-download"></i> </button></a>
             </div>
 
             <div class="box">
-                <img src="/Users/martinzatko/Desktop/PortfolioWebsite/images/coming_soon.png" alt="">
+                <img src="http://resumezatko.jednoduse.cz/images/coming_soon.png" alt="">
             </div>
 
             <div class="box">
-                <img src="/Users/martinzatko/Desktop/PortfolioWebsite/images/coming_soon.png" alt="">
+                <img src="http://resumezatko.jednoduse.cz/images/coming_soon.png" alt="">
             </div>
 
             <div class="box">
-                <img src="/Users/martinzatko/Desktop/PortfolioWebsite/images/coming_soon.png" alt="">
+                <img src="http://resumezatko.jednoduse.cz/images/coming_soon.png" alt="">
             </div>
 
             <div class="box">
-                <img src="/Users/martinzatko/Desktop/PortfolioWebsite/images/coming_soon.png" alt="">
+                <img src="http://resumezatko.jednoduse.cz/images/coming_soon.png" alt="">
             </div>
 
             <div class="box">
-                <img src="/Users/martinzatko/Desktop/PortfolioWebsite/images/coming_soon.png" alt="">
+                <img src="http://resumezatko.jednoduse.cz/images/coming_soon.png" alt="">
             </div>
 
         </div>
@@ -219,13 +225,13 @@
 
             </div>
 
-            <form method="POST" action="mailsend.php">
+            <form action="mailsend.php" method="post" >
 
-                <input name="name" type="text" placeholder="Meno" class="box">
-                <input name="email" type="email" placeholder="Email" class="box">
-                <input name="projekt" type="text" placeholder="Projekt" class="box">
+                <input type="text" name="name" placeholder="Meno" class="box">
+                <input type="text" name="mail" placeholder="Email" class="box">
+                <input type="text" name="subject" placeholder="Projekt" class="box">
                 <textarea name="message" id="message" cols="30" rows="10" class="box message" placeholder="Správa"></textarea>
-                <button type="submit" class="btn" value="Odoslať"> Odoslať <i class="fas fa-paper-plane"></i> </button>
+                <button type="submit" name"submit" class="btn" value="Odoslať"> Odoslať <i class="fas fa-paper-plane"></i> </button>
 
             </form>
 
@@ -239,7 +245,7 @@
     <!-- scroll top button / tlačidlo premiestnenia na začiatok -->
 
     <a href="#home" class="top">
-        <img src="/Users/martinzatko/Desktop/PortfolioWebsite/images/scroll-top-img.png" alt="">
+        <img src="http://resumezatko.jednoduse.cz/images/scroll-top-img.png" alt="">
     </a>
 
 
@@ -260,7 +266,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <!-- custom js file link  -->
-    <script src="/Users/martinzatko/Desktop/PortfolioWebsite/js/script.js"></script>
+    <script src="http://resumezatko.jednoduse.cz/js/script.js"></script>
 
 
 </body>
