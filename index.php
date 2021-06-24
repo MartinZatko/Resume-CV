@@ -231,7 +231,7 @@ include 'config.php';
                 <input type="text" name="mail" placeholder="Email" class="box">
                 <input type="text" name="subject" placeholder="Projekt" class="box">
                 <textarea name="message" id="message" cols="30" rows="10" class="box message" placeholder="Správa"></textarea>
-                <button type="submit" name"submit" class="btn" value="Odoslať"> Odoslať <i class="fas fa-paper-plane"></i> </button>
+                <button type="submit" name="submit" class="btn" value="Odoslať"> Odoslať <i class="fas fa-paper-plane"></i> </button>
 
             </form>
 
